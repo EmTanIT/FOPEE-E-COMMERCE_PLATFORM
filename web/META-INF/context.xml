@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/bai1">
+    <Resource name = "DSSE1721" 
+              type = "javax.sql.DataSource" 
+              auth = "Container" 
+              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+              url="jdbc:sqlserver://localhost:1433;databaseName=UserManagement;instanceName=BEN10" 
+              username="sa" password="12345"
+    />
+</Context>
